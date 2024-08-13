@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Tengfei"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+      - href: certificate.qmd
+      - href: gallery.qmd
+      - href: about.qmd
+    tools:
+      - icon: linkedin
+        href: https://linkedin.com/in/tengfei
+        text: LinkedIn
+      - icon: twitter
+        href: https://twitter.com/tengfei
+        text: Twitter
+      - icon: github
+        href: https://github.com/tengfei
+        text: GitHub
+ 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

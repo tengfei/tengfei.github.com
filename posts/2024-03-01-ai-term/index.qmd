@@ -1,0 +1,126 @@
+---
+title: "Demystifying AI: Understanding AI, ML, Deep Learning, AGI, Narrow AI, Generative AI, Transformers, BERT, and Data Science"
+author: "Tengfei Yin"
+date: "2024-03-01"
+categories: [AI Product]
+image: fitted_thumbnail.jpg
+---
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/1709748257776-GVUABZHZVQO213D48ZYA/image-asset.jpeg)
+
+## Introduction
+
+In the age of automation and digitalization, understanding the technologies driving the revolution is crucial. This post will delve into **AI, ML, Deep Learning, AGI, Narrow AI, Generative AI, Transformers, BERT, and Data Science**, providing a comprehensive overview of these critical concepts.
+
+If you want a quick overview of all the related concepts before diving into each domain, we highly recommend the Generative AI learning path from Google. You can find it at [https://www.cloudskillsboost.google/journeys/118](https://www.cloudskillsboost.google/journeys/118).
+
+I also recommend another excellent entry-level course that provides an overview of AI in general. It's called [AI for Everyone - DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone/) and is offered by Andrew Ng's [DeepLearning.ai](http://deeplearning.ai/).
+
+In this blog, we have used some slides because they are really well explained.
+
+## Unraveling AI, ML, and Deep Learning
+
+Artificial Intelligence, Machine Learning, and Deep Learning are all interconnected fields that drive the technologies transforming our world today. Their origins and concepts are deeply intertwined, each representing a step forward in the development of intelligent machines.
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/a1455f27-8c75-4ce9-b7a1-28690becea49/overview.png)
+
+**Artificial Intelligence (AI)** is the overarching concept of creating machines that can mimic human intelligence. Originating from the question "Can machines think?", AI as a field emerged in the 1950s with the aim of creating systems capable of performing tasks typically requiring human intelligence. These tasks could range from understanding natural language, recognizing patterns, making decisions, to interpreting complex data. The dream of AI was to create machines that could not only perform these tasks but also improve themselves over time.
+
+**Machine Learning (ML)** is a subset of AI and is based on the idea that machines should be given access to data and allowed to learn for themselves. It emerged as a concept in the late 1950s and early 1960s, with the proposition that computers could learn from data without being explicitly programmed to perform specific tasks. ML focuses on the development and application of algorithms that improve their performance at tasks over time with experience. In essence, ML is about creating and implementing algorithms that allow machines to learn from data, and make predictions or decisions without being explicitly programmed to perform the task.
+
+**Deep Learning** is a further subset of ML and represents the cutting edge of AI technologies. Deep learning algorithms are based on artificial neural networks, particularly deep neural networks (DNNs). The "deep" in deep learning refers to the number of layers in the neural network. With enough layers, DNNs can model high-level abstractions in data, which is a key advantage over simpler ML methods. These models can be trained on large amounts of data and can automatically extract features for classification or prediction tasks, reducing the need for manual feature extraction.
+
+In summary, while AI, ML, and Deep Learning have their unique qualities, they are interconnected and represent different scales on the spectrum of intelligent machine capabilities. AI is the broadest concept, aimed at creating machines that can perform intelligent tasks. ML is a specific subset of AI methodologies centered around learning from data. Deep Learning, in turn, represents the most advanced subset of ML techniques, utilizing complex neural networks to model and understand intricate patterns in large amounts of data.
+
+## Large Language Models, Generative AI, and Deep Learning
+
+In the field of AI, Deep Learning has given rise to significant innovations, specifically in the realm of Large Language Models and Generative AI. These advanced models, including prominent examples like Transformer and BERT, have transformed our ability to understand, generate, and interact with human language.
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/d0240c3b-21a5-4f0b-9b58-abe9df227088/DL-subset.png)
+
+To recap, **Deep Learning** is a subset of Machine Learning, which in turn falls under the broader umbrella of Artificial Intelligence. Deep Learning models are designed to automatically and adaptively learn from experience using neural networks with multiple layers. These deep networks can model complex patterns in large datasets, a key capability that has empowered the development of both Large Language Models and Generative AI.
+
+Within the realm of Deep Learning, there are two fundamental types of models that are commonly used: **discriminative models** and **generative models**. These models represent different approaches to understanding data, each with its unique strengths and use cases.
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/fb40f503-ba4d-46bf-9b4c-dfab8f2d8b88/DL-model-types.png)
+
+### Discriminative Models
+
+**Discriminative models** are a class of models that learn the decision boundary between different classes. In other words, they differentiate or discriminate between different types of outcomes. Given an input, a discriminative model is trained to make a decision—usually, this decision involves classifying the input into one of several pre-defined categories.
+
+For example, consider a machine learning task to classify emails as either "spam" or "not spam." A discriminative model would be trained on a labeled dataset with these two categories and would learn to recognize the features that distinguish spam emails from non-spam ones.
+
+Discriminative models are widely used in classification problems. Some examples of discriminative algorithms include logistic regression, support vector machines, and most neural networks.
+
+### Generative Models
+
+**Generative models**, on the other hand, take a different approach. These models learn the underlying probability distribution of the data, which allows them to generate new data instances that are similar to the training data. In other words, they don’t just learn to differentiate between different classes—they learn to understand the features that define each class.
+
+For instance, in the spam email example, a generative model would learn what features make an email spam and what features make an email not spam. Given this understanding, it could then generate new spam or not spam emails.
+
+Generative models are widely used in tasks that involve generating new content, such as text, images, or music. Some examples of generative models include Naive Bayes classifiers, Hidden Markov Models, and Generative Adversarial Networks (GANs).
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/61739279-281a-404d-a499-99e3730ac4b1/dog.png)
+
+  
+It's important to note that while these model types can be powerful in their respective use cases, they are not mutually exclusive. In many real-world applications, both discriminative and generative models can be used together to achieve better results. For example, in semi-supervised learning, unlabeled data is used in conjunction with a small amount of labeled data to improve the performance of a model. In this case, a generative model can be used to learn the underlying data distribution, which can then help improve the performance of a discriminative model.
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/d1c3e7e9-1f28-4703-ba2a-d9cad1d3fe19/LLM-subset.png)
+
+  
+**Large Language Models** are a type of machine learning model for Natural Language Processing (NLP). These models are trained on vast amounts of text data and can generate human-like text by predicting the likelihood of a given word sequence. By learning the statistical patterns of language, these models can produce coherent and contextually relevant sentences.
+
+An important breakthrough in Large Language Models came with the advent of **Transformer** models. Introduced in a paper titled "Attention is All You Need" by Vaswani et al. in 2017, the Transformer model revolutionized NLP tasks with its novel attention mechanism, allowing it to focus on different parts of the input sequence when producing an output. The model's ability to handle long-term dependencies in text, along with its scalability, propelled the Transformer to become the foundation for many subsequent models.
+
+**BERT (Bidirectional Encoder Representations from Transformers)** is one such model built on the Transformer architecture. BERT brought a significant change to the method of pre-training language models. Unlike its predecessors, which read text input sequentially (either from left to right or right to left), BERT is designed to read the entire sequence of words at once, thus it is bidirectional. This allows the model to learn the context of a word based on all of its surroundings (left and right of the word). The bidirectional approach of BERT leads to a more nuanced model understanding and generates superior results on various NLP tasks.
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/58c0359e-065d-4ef0-a373-0f5ab4b97197/genAI-subset.png)
+
+## Narrow AI vs. Artificial General Intelligence (AGI)
+
+In the world of artificial intelligence, there are two broad categories that define the scope and capability of AI systems: **Narrow AI** and **Artificial General Intelligence (AGI)**. Both represent significant advancements in technology, but they differ greatly in their abilities and applications.
+
+Here again I recommend an excellent entry-level course that provides an overview of AI in general. It's called [AI for Everyone - DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone/) and is offered by Andrew Ng's [DeepLearning.ai](http://deeplearning.ai/).
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/9582194c-36d7-41b1-8927-95d62987afa8/demystifying-ai.png)
+
+### Narrow AI
+
+**Narrow AI**, also known as weak AI, refers to AI systems designed to perform a narrow task, i.e., they're specialized in one specific area. These systems operate under a limited set of constraints and are 'trained' to perform a specific task without possessing the understanding or consciousness of their actions.
+
+For example, a spam filtering tool is a Narrow AI that's specialized in identifying and filtering out spam emails. Similarly, AI used in voice assistants like Amazon's Alexa or Apple's Siri, while incredibly sophisticated and capable of understanding and responding to a wide range of voice commands, is still considered Narrow AI. These systems are impressive at their specific tasks, but they have no understanding outside of their specialization. It can outperform humans in narrowly defined and structured tasks such as internet search, face recognition, or speech detection.
+
+### Artificial General Intelligence (AGI)
+
+On the other end of the spectrum, **Artificial General Intelligence (AGI)**, also referred to as strong AI or full AI, is the concept of a machine that could perform any intellectual task that a human being can. It's a primary goal of some AI research and a common topic in science fiction. AGI would be capable of understanding, learning, and applying knowledge across a wide variety of tasks, demonstrating reason, problem-solving skills, perception, language understanding, and social intelligence.
+
+Artificial General Intelligence (AGI) or strong AI is the ultimate vision of AI where systems can handle a wide range of cognitive tasks and can act and think like a human. AGI focuses on creating intelligent machines that can successfully perform any intellectual task a human can, with the ability to generalize knowledge between various domains and to take knowledge from one area and apply it somewhere else
+
+The major difference between AGI and narrow AI is adaptability. For AI to be generally intelligent, it must be able to adapt as changes occur in the environment. Humans can adapt to new surroundings by pulling from past experiences, and AI must be able to do the same. While AGI is an active area of research, it has not yet been solved.
+
+## Data Science vs AI
+
+**Data Science** is a field that uses scientific methods, algorithms, processes, and systems to extract insights from structured and unstructured data. Data science is multi-disciplinary, involving disciplines like mathematics, statistics, computer science, and domain expertise. A key objective of data science is to derive actionable insights from data to inform decision-making and predict future trends.
+
+On the other hand, **Artificial Intelligence (AI)** is a branch of computer science aiming to build machines capable of mimicking human intelligence. AI can learn from experience, adjust to new inputs, and perform tasks that usually require human intelligence. These tasks include speech recognition, decision-making, visual perception, and language translation, among others.
+
+Now, how do data science and AI intersect?
+
+While data science is not limited to AI, AI can be viewed as an essential tool in the data science toolbox. AI algorithms, particularly those in machine learning and deep learning, can assist data scientists in mining complex data for insights, making accurate predictions, and even automating decision-making processes.
+
+For example, data scientists may employ AI algorithms to analyze large datasets and predict future trends or behaviors, like customer purchasing habits or stock market fluctuations. In these instances, the AI algorithms help to analyze and interpret the data, but the overarching goal - understanding the data and extracting valuable insights - falls within the realm of data science.
+
+In summary, while **AI** and **Data Science** are distinct fields with their own specific objectives and methodologies, they overlap significantly, with AI serving as a powerful tool that enables data scientists to delve deeper into complex data and extract more valuable, actionable insights.
+
+Here, we reference a slide from Andrew's course [AI for Everyone - DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone/).
+
+![](https://images.squarespace-cdn.com/content/v1/65cd3f5702c01672c4ffd73e/314d5764-f8dc-4b9d-b505-c860575305a6/ML-vs-DS.png)
+
+## Conclusion
+
+From the dawn of **Artificial Intelligence (AI)** to the emergence of **Machine Learning (ML)**, **Deep Learning**, **Large Language Models**, **Generative AI**, and **Narrow AI vs AGI**, we have navigated an intriguing landscape. The interconnections between these technologies have been pivotal in shaping the current state of AI.
+
+Finally, we reflected on the relationship between **AI and Data Science**, two distinct yet closely intertwined fields. AI has emerged as an invaluable tool for Data Scientists, amplifying their ability to extract meaningful insights from vast and complex data sets.
+
+Understanding these concepts, their history, relationships, and applications not only helps us appreciate the progress we've made but also equips us with knowledge to anticipate and prepare for the future of AI.
+
+In the end, the landscape of AI is vast and continually evolving, making it an exciting field for technologists, researchers, and businesses alike. As we delve deeper into this fascinating world, we not only unlock new capabilities but also shape the future of technology and its role in society.

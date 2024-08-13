@@ -1,0 +1,47 @@
+---
+title: "Certificate"
+format: html
+lightbox: true
+---
+
+## Product Management 
+
+
+<div data-iframe-width="400" data-iframe-height="270" data-share-badge-id="7a8c085e-e564-4203-889b-13a962503774" data-share-badge-host="https://www.credly.com"></div>
+
+## Cloud Computing and AI
+
+::: {layout-ncol=2}
+<div data-iframe-width="400" data-iframe-height="270" data-share-badge-id="30df04e8-cc38-4509-8ed4-5278e3b122c6" data-share-badge-host="https://www.credly.com"></div>
+
+<div data-iframe-width="400" data-iframe-height="270" data-share-badge-id="87cc2814-20bc-49fc-82f3-ca6a2435e424" data-share-badge-host="https://www.credly.com"></div>
+
+<div data-iframe-width="400" data-iframe-height="270" data-share-badge-id="8cb2017f-11db-4254-a08f-e4f831f93062" data-share-badge-host="https://www.credly.com"></div>
+
+<div data-iframe-width="400" data-iframe-height="270" data-share-badge-id="567b24d7-f0a6-46e2-9de6-d88effba1d5b" data-share-badge-host="https://www.credly.com"></div>
+
+:::
+
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+## Coursera Course Specialization
+
+[Deep Learning:](https://coursera.org/share/4ffdd5e715d1ec351a9b6fa37fdc6041) (5 courses)
+
+- Neural Networks and Deep Learning
+- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+- Convolutional Neural Networks
+- Sequence Models
+- Structuring Machine Learning Projects
+
+[Machine Learning:](https://coursera.org/share/a45a562e0dbeebe46e26b57163c6d93e) (3 Courses)
+
+- Supervised Machine Learning: Regression and Classification
+- Advanced Learning Algorithms
+- Unsupervised Learning, Recommenders, Reinforcement Learning
+
+[AI for Medicine](https://coursera.org/share/35be5fe008f80357bd9e0dc2fbfa25c7) (3 Courses)
+
+- AI for Medical Diagnosis
+- AI for Medical Prognosis
+- AI For Medical Treatment
