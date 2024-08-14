@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tengfei.me/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengfei.me/blog/posts/2024-03-07-role-in-ai/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengfei.me/blog/posts/2024-03-08-ai-strategy/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengfei.me/blog/posts/2024-03-06-ai-safety/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tengfei.me/certificate/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
-  </url>
-  <url>
     <loc>https://tengfei.me/blog/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.062Z</lastmod>
+    <lastmod>2024-08-13T19:29:17.536Z</lastmod>
   </url>
   <url>
     <loc>https://tengfei.me/blog/posts/2024-03-01-ai-term/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
+    <lastmod>2024-08-13T19:29:17.519Z</lastmod>
   </url>
   <url>
     <loc>https://tengfei.me/blog/posts/2024-03-09-ai-company-transformation/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.066Z</lastmod>
+    <lastmod>2024-08-13T19:29:17.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengfei.me/index.html</loc>
+    <lastmod>2024-08-14T00:47:07.618Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengfei.me/certificate/index.html</loc>
+    <lastmod>2024-08-13T19:29:17.538Z</lastmod>
   </url>
   <url>
     <loc>https://tengfei.me/gallery/index.html</loc>
-    <lastmod>2024-08-14T00:50:10.098Z</lastmod>
+    <lastmod>2024-08-14T00:44:14.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengfei.me/blog/posts/2024-03-08-ai-strategy/index.html</loc>
+    <lastmod>2024-08-13T19:29:17.524Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengfei.me/blog/posts/2024-03-06-ai-safety/index.html</loc>
+    <lastmod>2024-08-13T19:29:17.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tengfei.me/blog/posts/2024-03-07-role-in-ai/index.html</loc>
+    <lastmod>2024-08-13T19:29:17.523Z</lastmod>
   </url>
 </urlset>
