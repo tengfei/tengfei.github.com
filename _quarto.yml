@@ -23,7 +23,7 @@ website:
       - icon: github
         href: https://github.com/tengfei
         text: GitHub
- 
+  google-analytics: "G-VE3DTZ3QX8"
 
 format:
   html:
