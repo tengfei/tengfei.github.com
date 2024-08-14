@@ -1,0 +1,29 @@
+---
+title: "Gallery"
+format: html
+lightbox: true
+---
+
+::: {layout-ncol=2}
+![](./IMG_4271.jpg){group="my-group"}
+
+![](./IMG_1882.jpeg){group="my-group"}
+
+![](./IMG_1880.jpeg){group="my-group"}
+
+![](./IMG_1881.jpeg){group="my-group"}
+
+![](./IMG_0517.jpeg){group="my-group"}
+
+![](./IMG_1007.jpg){group="my-group"}
+
+![](./IMG_1763.png){group="my-group"}
+
+![](./IMG_1974.jpg){group="my-group"}
+
+
+
+
+
+
+:::

@@ -7,11 +7,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
+      - href: blog/index.qmd
         text: Blog
-      - href: certificate.qmd
-      - href: gallery.qmd
-      - href: about.qmd
+      - href: certificate/index.qmd
+        text: Certificate
+      - href: gallery/index.qmd
+        text: Gallery
     tools:
       - icon: linkedin
         href: https://linkedin.com/in/tengfei
