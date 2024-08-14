@@ -13,6 +13,8 @@ website:
         text: Certificate
       - href: gallery/index.qmd
         text: Gallery
+      - href: about/index.qmd
+        text: About
     tools:
       - icon: linkedin
         href: https://linkedin.com/in/tengfei
