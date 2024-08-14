@@ -1,1 +1,1 @@
-Sitemap: https://tengfei.github.io/tengfei.github.com/sitemap.xml
+Sitemap: https://tengfei.me/sitemap.xml
